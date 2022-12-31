@@ -7,6 +7,9 @@
   border-radius: 10px;
 }
 .icon {
-  margin-right: 0.5rem;
   margin-top: 6px;
+}
+
+.item_name {
+  margin-right: 0.5rem;
 }
