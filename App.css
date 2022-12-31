@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+}
+
+.body_container {
+  background-color: blue;
+  flex: 1;
+}
+
+.sidebar_container {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  height: 90%;
+  justify-content: start;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+  /* background: rgba(255, 255, 255, 0.3); */
+  background: wheat;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.lines_icon {
+  display: flex;
+  align-self: flex-start;
+  border-radius: 5px;
+}
+
+.profile {
+  display: flex;
+  width: 70px;
+  align-items: center;
+  border-radius: 10%;
+  margin-bottom: 1rem;
+}
+
+.profile > img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
