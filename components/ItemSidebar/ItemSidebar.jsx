@@ -30,7 +30,9 @@ const ItemSidebar = (props) => {
       className="item"
     >
       <motion.div className="icon">{props.icon}</motion.div>
-      <motion.span variants={subheading}> {props.name}</motion.span>
+      <motion.span className="item_name" variants={subheading}>
+        {props.name}
+      </motion.span>
     </motion.div>
   );
 };
